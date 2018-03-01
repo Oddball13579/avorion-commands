@@ -79,7 +79,7 @@ end
 function getWeaponType(w)
 	local weapontype
 	if tonumber(w) then 
-		weapontype = limit(tonumber(w), 12, 0)
+		weapontype = limit(tonumber(w), 13, 0)
 	else
 		weapontype = findString(weapons, w)
 	end
