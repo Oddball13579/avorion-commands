@@ -14,4 +14,5 @@ return
 	{function (str) return str:find("^[tT]es") end, 10, "TeslaGun"},
 	{function (str) return str:find("^[fF]or") end, 11, "ForceGun"},
 	{function (str) return str:find("^[sS]al") end, 12, "SalvagingLaser"},
+	{function (str) return str:find("^[pP]ul") end, 13, "PulseCannon"},
 }
